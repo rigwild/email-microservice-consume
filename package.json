@@ -1,0 +1,24 @@
+{
+  "name": "email-microservice-consume",
+  "version": "1.0.0",
+  "description": "a microservice to consume https://github.com/rigwild/email-microservice securely.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rigwild/email-microservice-consume.git"
+  },
+  "author": "rigwild",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rigwild/email-microservice-consume/issues"
+  },
+  "homepage": "https://github.com/rigwild/email-microservice-consume#readme",
+  "dependencies": {
+    "dotenv-safe": "^6.1.0",
+    "micro": "^9.3.3",
+    "node-fetch": "^2.3.0"
+  }
+}
