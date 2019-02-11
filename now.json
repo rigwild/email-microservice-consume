@@ -7,8 +7,14 @@
   "routes": [
     {
       "src": "/",
-      "dest": "src/index.js"
+      "dest": "index.js"
     }
   ],
+  "env": {
+    "email_microservice_endpoint": "@email_microservice_url",
+    "email_microservice_token": "@email_microservice_token_asauvage_fr",
+    "email_to": "@email_microservice_recipient",
+    "email_subject": "Email reçu depuis le microservice"
+  },
   "alias": "asauvage-fr-email-microservice-consume.now.sh"
 }

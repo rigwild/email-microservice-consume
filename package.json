@@ -4,7 +4,7 @@
   "description": "a microservice to consume https://github.com/rigwild/email-microservice securely.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "now && now alias"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/rigwild/email-microservice-consume#readme",
   "dependencies": {
-    "dotenv-safe": "^6.1.0",
     "micro": "^9.3.3",
     "node-fetch": "^2.3.0"
   }
