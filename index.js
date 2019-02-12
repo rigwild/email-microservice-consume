@@ -45,8 +45,11 @@ module.exports = async (req, res) => {
       })
     }).then(res => res.json())
 
+    console.log(JSON.stringify(result))
+
     res.end(JSON.stringify(result))
   } catch (err) {
+    console.error(err)
     sendError(req, res, err)
   }
 }
